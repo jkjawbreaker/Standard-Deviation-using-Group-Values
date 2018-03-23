@@ -14,7 +14,6 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-String i;
     // --------------------------------
     // Here is a private method (procedure) that will Display the results to the screen
     //
