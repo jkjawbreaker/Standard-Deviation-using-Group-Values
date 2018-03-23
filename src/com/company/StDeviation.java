@@ -12,7 +12,7 @@ package com.company;
 import static com.company.ProjConstants.*;
 
 public class StDeviation {
-
+    int test;
     /* ---------*---------*---------*---------*---------*---------*---------*---------*
     // Class Level Variables
     // ---------*---------*---------*---------*---------*---------*---------*--------- */
