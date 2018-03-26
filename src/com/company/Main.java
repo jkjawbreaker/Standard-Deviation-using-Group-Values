@@ -99,9 +99,13 @@ public class Main {
             // create file, and scanner objects
             // - file object is called tempfilenums.txt and is in your project directory
             //   that is the same folder as the iml file
-            //
+            File userFile;
 
-            File userFile = new File(userInputFileName);
+            if  (userInputFileName.endsWith(".txt")) {
+                userFile = new File(userInputFileName);
+            }else{
+                userFile = new File(userInputFileName+".txt");
+            }
             Scanner scanUserFile = new Scanner(userFile, "UTF-8");
 
             // ******************************************************************************
